@@ -44,6 +44,7 @@ public final class WasmInterpreter {
         try WasmInterpreter.check(m3_ParseModule(environment, &mod, bytes, UInt32(bytes.count)))
         guard let module = mod else { throw WasmInterpreterError.couldNotParseModule }
         try WasmInterpreter.check(m3_LoadModule(runtime, module))
+        try WasmInterpreter.check(m3_LinkWASI(module))
 
         self.environment = environment
         self.runtime = runtime
