@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/Hypertrack/cwasm3.git",
         "state": {
           "branch": "wasi",
-          "revision": "78a6291a3f35d88a99c71ab05c3589f7455407ab",
+          "revision": "ab03abab7da3bb95c9899915dc277086ac59104f",
           "version": null
         }
       },
